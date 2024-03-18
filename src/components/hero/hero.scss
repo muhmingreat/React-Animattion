@@ -1,0 +1,63 @@
+.hero{
+    height: calc(100vh - 100px );
+    overflow:hidden;
+    background:linear-gradient(180deg,#0c0c1d, #111132) ;
+    position: relative;
+    
+    .wrapper{
+        max-width: 1400px;
+        height: 100%;
+        margin: auto;
+        
+        .textContainer{
+            width:50%;
+            height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:40px;
+    
+        h2{
+            font-size: 30px;
+            letter-spacing: 10px;
+            color:rebeccapurple; 
+        }
+        
+        h1{
+            font-size: 88px;
+        }
+        .buttons{
+            button{
+                padding: 20px;
+                border: 1px solid #fff;
+                background-color: transparent;
+                color:white;
+                cursor: pointer;
+                font-weight: 300;
+                margin-right: 10px;
+                border-radius: 12px;
+
+            }
+        }
+        img{
+         width:50px
+        }
+    }
+
+    }
+    .img-container{
+        height: 100%;
+        position:absolute;
+        top:0;
+        right: 0;
+    }
+  .sliderText{
+    width: 50%;
+    position: absolute;
+    font-size: 50vh;
+    bottom:-120px;
+white-space: nowrap;
+color:#ffffff09;
+font-weight: bold;
+  }  
+}
